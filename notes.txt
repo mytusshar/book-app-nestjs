@@ -1,0 +1,25 @@
+=> to generate CRUD for table:
+nest g resource super_category
+
+--------------------------------------------------------
+to check mongodb status:
+-> sudo systemctl status mongod
+
+to start mongodb:
+-> sudo systemctl start mongod
+
+to stop mongodb:
+-> sudo systemctl stop mongod
+
+Login to mongodb via terminal
+=> to login to mongo db terminal:
+1. mongosh
+
+shows databses:
+-> show dbs
+
+to use db:
+-> use dbname
+
+to check in which db you logged in to:
+-> db
